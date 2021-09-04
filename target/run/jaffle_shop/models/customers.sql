@@ -2,7 +2,8 @@
 
   create or replace view `dbttesting-324906`.`dbt_jake`.`customers`
   OPTIONS()
-  as with customers as (
+  as 
+with customers as (
 
     select
         id as customer_id,
